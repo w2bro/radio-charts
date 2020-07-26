@@ -1,0 +1,52 @@
+# Default values for direwolf.
+replicaCount: 1
+
+image:
+  repository: w2bro/direwolf
+  pullPolicy: IfNotPresent
+
+imagePullSecrets: []
+nameOverride: ""
+fullnameOverride: ""
+
+serviceAccount:
+  # Specifies whether a service account should be created
+  create: true
+  # Annotations to add to the service account
+  annotations: {}
+  # The name of the service account to use.
+  # If not set and create is true, a name is generated using the fullname template
+  name: "direwolf"
+
+secret:
+  name: direwolf-env-secret
+
+env:
+  # Non-sensitive variables
+  normal:
+    ADEVICE: "stdin null"
+    FREQUENCY: 144.39M
+    COMMENT: Direwolf in Docker w2bro/direwolf
+    SYMBOL: igate
+    IGSERVER: noam.aprs2.net
+    CALLSIGN: N0CALL
+  # Sensitive variables
+  secret:
+    PASSCODE: "00000"
+    LATITUDE: "42^37.14N"
+    LONGITUDE: "071^20.83W"
+
+
+podAnnotations: {}
+
+# Privileged context is needed to interact with usb devices
+securityContext:
+  privileged: true
+
+resources: {}
+
+nodeSelector: {}
+
+tolerations: []
+
+affinity: {}
