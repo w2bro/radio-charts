@@ -1,0 +1,18 @@
+apiVersion: v2
+name: readsb
+description: Run readsb for ADS-B radio traffic
+type: application
+version: 0.0.3
+appVersion: 1.1.0
+home: https://github.com/w2bro/radio-charts/tree/master/charts/readsb
+sources:
+  - https://github.com/mikenye/docker-readsb
+  - https://github.com/Mictronics/readsb
+maintainers:
+  - name: rossmckelvie
+    email: charts@w2b.ro
+icon: https://w2b.ro/favicon-96.png
+keywords:
+  - adsb
+  - ads-b
+  - rtl-sdr
