@@ -3,6 +3,24 @@ entries:
   direwolf:
   - apiVersion: v2
     appVersion: 1.1.0
+    created: "2020-07-26T06:20:24.537929314Z"
+    description: Run Direwolf for APRS projects
+    digest: aea05fd1487222448c010c279b76f0658a85143f662ef857fa30802f25d27bac
+    home: https://github.com/w2bro/radio-charts/tree/master/charts/direwolf
+    icon: https://w2b.ro/favicon-96.png
+    maintainers:
+    - email: charts@w2b.ro
+      name: rossmckelvie
+    name: direwolf
+    sources:
+    - https://github.com/w2bro/docker-direwolf
+    - https://github.com/wb2osz/direwolf
+    type: application
+    urls:
+    - https://github.com/w2bro/radio-charts/releases/download/direwolf-0.0.3/direwolf-0.0.3.tgz
+    version: 0.0.3
+  - apiVersion: v2
+    appVersion: 1.1.0
     created: "2020-07-26T05:03:42.65736051Z"
     description: Run Direwolf for APRS projects
     digest: 560ada68ad858854e5afde1db125d69421048f0abddd2917854be59aae6daacf
