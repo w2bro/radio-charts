@@ -2,7 +2,7 @@ apiVersion: v2
 name: direwolf
 description: Run Direwolf for APRS projects
 type: application
-version: 0.0.2
+version: 0.0.3
 appVersion: 1.1.0
 home: https://github.com/w2bro/radio-charts/tree/master/charts/direwolf
 sources:
@@ -10,5 +10,5 @@ sources:
   - https://github.com/wb2osz/direwolf
 maintainers:
   - name: rossmckelvie
-    email: qrl@w2b.ro
+    email: charts@w2b.ro
 icon: https://w2b.ro/favicon-96.png
