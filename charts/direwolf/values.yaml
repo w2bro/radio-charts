@@ -36,6 +36,7 @@ env:
     LATITUDE: "42^37.14N"
     LONGITUDE: "071^20.83W"
 
+usbMountPath: /dev/bus/usb/001/004
 
 podAnnotations: {}
 
