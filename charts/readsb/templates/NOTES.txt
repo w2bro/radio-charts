@@ -1,0 +1,9 @@
+It is important to blacklist the kernal modules on the nodes so that the host's kernal doesn't take over the device.
+
+Please run the following commands on the host:
+
+blacklist rtl2832
+blacklist dvb_usb_rtl28xxu
+blacklist rtl2832_sdr
+
+For more information, visit mikenye's setup guide https://github.com/mikenye/docker-readsb/wiki/Guide-to-ADS-B-Data-Receiving,-Decoding-and-Sharing,-Leveraging-RTLSDR-and-Docker
