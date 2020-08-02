@@ -47,4 +47,4 @@ helm install --name aprs-igate -f callsign-values.yaml w2bro/direwolf
 
 [`w2bro/direwolf`]: https://github.com/w2bro/docker-direwolf
 [values.yaml]: https://github.com/w2bro/radio-charts/blob/master/charts/direwolf/values.yaml
-[IGLOGIN passcode]: http://apps.magicbug.co.uk/passcode/
+[IGLOGIN passcode]: https://w2b.ro/tools/aprs-passcode/
